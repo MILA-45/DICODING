@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fbebf6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+header {
+    background-color: #ce8ba4;
+    color: #fff;
+    padding: 1em 0;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2em;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 1em;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    font-weight: bold;
+}
+
+
+.hero {
+    background-color: #fdd3e8;
+    padding: 2em 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 1.8em;
+    margin-bottom: 0.5em;
+}
+
+.hero-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1em;
+}
+
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em 0;
+}
+
+.about-image {
+    max-width: 40%;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    padding: 0.5em 0;
+    border-bottom: 1px solid #ddd;
+}
+
+
+.blog article {
+    margin-bottom: 1.5em;
+    background-color: #fdd3e8;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.blog article h3 {
+    font-size: 1.5em;
+    margin-top: 0.5em;
+}
+
+
+aside {
+    background-color: #fbebf6;
+    padding: 1em;
+    margin-top: 1em;
+    border-radius: 8px;
+}
+
+aside h3 {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+
+footer {
+    background-color: #ce8ba4;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+footer p {
+    margin: 0.5em 0;
+}
